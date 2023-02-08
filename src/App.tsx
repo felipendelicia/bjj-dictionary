@@ -1,9 +1,17 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import styled from 'styled-components'
 import routes from './data/routes'
+import styles from './data/styles'
+
+const AppContainer = styled.div`
+  width: 100vw;
+  height: 100vh;
+  background-color: ${styles.white};
+`
 
 function App() {
   return (
-    <div className="App">
+    <AppContainer>
       <Router>
         <Routes>
           {
@@ -16,7 +24,7 @@ function App() {
           }
         </Routes>
       </Router>
-    </div>
+    </AppContainer>
   )
 }
 
