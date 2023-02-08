@@ -1,9 +1,13 @@
 import CenteredContainer from "../components/CenteredContainer";
+import ColumnContainer from "../components/ColumnContainer";
 
 export default function Landing() {
   return (
     <CenteredContainer>
-      <p>hola</p>
+      <ColumnContainer>
+        <p>hola</p>
+        <p>hola</p>
+      </ColumnContainer>
     </CenteredContainer>
   )
 }
