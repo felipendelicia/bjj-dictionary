@@ -7,6 +7,17 @@
 
 * {
     font-family: 'Open Sans', sans-serif;
+    animation-name: opacity-animation;
+    animation-duration: 1s;
     padding: 0;
     margin: 0;
+}
+
+@keyframes opacity-animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
