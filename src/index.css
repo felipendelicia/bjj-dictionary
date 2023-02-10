@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-
-.App{
-    width: 100vw;
-    height: 100vh;
-}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
 
 * {
     font-family: 'Lato', sans-serif;
@@ -11,6 +7,15 @@
     animation-duration: 1s;
     padding: 0;
     margin: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    cursor: default;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
 }
 
 @keyframes opacity-animation {

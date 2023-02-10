@@ -6,7 +6,7 @@ import styles from './data/styles'
 const AppContainer = styled.div`
   width: 100vw;
   height: 100vh;
-  background-color: ${styles.white};
+  background-color: ${styles.black};
 `
 
 function App() {
