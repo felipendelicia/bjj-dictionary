@@ -6,6 +6,7 @@ export const LandingTitle = styled.h1`
     font-size: 4em;
     font-family: ${styles.alternativeFont};
     color: ${styles.white};
+    text-align: center;
 `
 
 export const ButtonsContainer = styled.div`
