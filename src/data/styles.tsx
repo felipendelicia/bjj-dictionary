@@ -6,6 +6,7 @@ const styles = {
     magnaPrimary: '#CD5888',
     alternativeFont: "'Josefin Sans', sans-serif",
     gap: '20px',
+    borderRadius: '15px'
 }
 
 export default styles

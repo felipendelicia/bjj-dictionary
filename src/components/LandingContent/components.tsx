@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const LandingTitle = styled.h1`
     font-size: 4em;
     font-family: ${styles.alternativeFont};
-    color: ${styles.white};
+    color: ${styles.black};
     text-align: center;
 `
 
@@ -26,7 +26,7 @@ export const RedirectButton = styled(Link)`
 
 export const SubtitlePowered = styled.h2`
     font-size: 1em;
-    color: ${styles.white};
+    color: ${styles.black};
     text-align: center;
     font-weight: normal;
 `

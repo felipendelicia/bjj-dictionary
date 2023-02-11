@@ -6,10 +6,10 @@ import styles from './data/styles'
 const AppContainer = styled.div`
   width: 100vw;
   height: 100vh;
-  background-color: ${styles.black};
+  background-color: ${styles.white};
 `
 
-function App() {
+export default function App() {
   return (
     <AppContainer>
       <Router>
@@ -27,5 +27,3 @@ function App() {
     </AppContainer>
   )
 }
-
-export default App
