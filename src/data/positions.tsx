@@ -2,13 +2,13 @@ const positions = {
     gi:[
         {
             name: 'x-guard',
-            imgURL: ''
+            route: '/gi/x-guard'
         },
     ],
     noGi:[
         {
-            name: 'x-guard',
-            imgURL: ''
+            name: 'butterfly',
+            route: '/nogi/butterfly'
         },
     ]
 }

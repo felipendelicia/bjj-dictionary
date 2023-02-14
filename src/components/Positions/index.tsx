@@ -17,7 +17,7 @@ export default function Positions(props:PositionsProps) {
 
 const Position = (props:PositionProps) => {
   return (
-    <PositionContainer>
+    <PositionContainer to={props.route}>
       {props.name}
     </PositionContainer>
   )

@@ -8,7 +8,7 @@ export default function NoGi() {
     <>
       <Navegation/>
       <MarginContent>
-        <Positions positions={positions.gi}/>
+        <Positions positions={positions.noGi}/>
       </MarginContent>
     </>
   )
