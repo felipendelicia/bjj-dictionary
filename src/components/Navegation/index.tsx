@@ -17,7 +17,6 @@ export default function Navegation() {
 }
 
 const NavegationItem = ({ name, path, icon }: NavegationItemProps) => {
-
   return (
     <BubbleContainer>
       <BubbleLinkContainer to={path}>

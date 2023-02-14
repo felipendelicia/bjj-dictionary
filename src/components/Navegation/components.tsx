@@ -23,7 +23,7 @@ export const BubbleContainer = styled.div`
 export const BubbleLinkContainer = styled(Link)`
     font-size: 1em;
     display: flex;
-    gap: ${styles.gap}
+    gap: ${styles.gap};
 `
  
 export const BubbleContent = styled.span`
