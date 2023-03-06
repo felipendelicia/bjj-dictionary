@@ -3,9 +3,8 @@ import styles from "../../data/styles";
 import { Link } from "react-router-dom";
 
 export const NavegationContainer = styled.div`
-    color: ${styles.white};
+    color: ${styles.black};
     width: 100vw;
-    background-color: ${styles.black};
     display: flex;
     justify-content: space-around;
     align-items: center;

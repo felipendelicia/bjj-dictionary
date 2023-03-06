@@ -1,14 +1,17 @@
 import MarginContent from "../components/MarginContent"
 import Navegation from "../components/Navegation"
 import Positions from "../components/Positions"
-import positions from "../data/positions"
 
-export default function Gi() {
+interface ModalityProps {
+  positions: {name:string, route:string}[]
+}
+
+export default function Modality({positions}:ModalityProps) {
   return (
     <>
       <Navegation/>
       <MarginContent>
-        <Positions positions={positions.gi}/>
+        <Positions positions={positions}/>
       </MarginContent>
     </>
   )

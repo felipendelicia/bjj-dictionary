@@ -1,6 +1,6 @@
-import Gi from '../pages/Gi'
 import Landing from '../pages/Landing'
-import NoGi from '../pages/NoGi'
+import Modality from '../pages/Modality'
+import positions from './positions'
 
 const routes = [
     {
@@ -13,13 +13,13 @@ const routes = [
         route_name: 'Gi',
         route: '/gi',
         icon: '👘',
-        element: <Gi/>
+        element: <Modality positions={positions.gi}/>
     },
     {
         route_name: 'NoGi',
         route: '/nogi',
         icon: '🤼‍♂️',
-        element: <NoGi/>
+        element: <Modality positions={positions.noGi}/>
     }
 ]
 
