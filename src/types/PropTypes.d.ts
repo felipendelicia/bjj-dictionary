@@ -16,10 +16,11 @@ export interface NavegationItemProps {
 }
 
 export interface PositionsProps {
-    positions: { name: string, route: string }[]
+    positions: { name: string, route: string, img:string }[]
 }
 
 export interface PositionProps {
     name: string,
-    route: string
+    route: string,
+    img: string,
 }

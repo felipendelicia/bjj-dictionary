@@ -1,5 +1,5 @@
 import { PositionsProps, PositionProps } from "../../types/PropTypes"
-import { PositionContainer, PositionsContainer } from "./components"
+import { PositionContainerLink, PositionsContainer, PositionImg, PositionContainer, PositionTitle } from "./components"
 
 export default function Positions(props:PositionsProps) {
   return (
@@ -17,8 +17,11 @@ export default function Positions(props:PositionsProps) {
 
 const Position = (props:PositionProps) => {
   return (
-    <PositionContainer to={props.route}>
-      {props.name}
-    </PositionContainer>
+    <PositionContainerLink to={props.route}>
+      <PositionContainer>
+        <PositionImg src={props.img}/>
+        <PositionTitle>{props.name}</PositionTitle>
+      </PositionContainer>
+    </PositionContainerLink>
   )
 }

@@ -21,6 +21,8 @@ export const Navbrand = styled(Link)`
 
 export const CategoriesContainer = styled.div`
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: ${styles.gap};
     
 `
